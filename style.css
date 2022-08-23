@@ -1,0 +1,76 @@
+*. {
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+.container {
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+    border: 2px solid black;
+    padding: 8px;
+    
+}
+/* encode-sans-condensed-regular - latin */
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url(./fonts/code/encode-sans-condensed-v10-latin-regular.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(./fonts/code/encode-sans-condensed-v10-latin-regular.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* encode-sans-condensed-500 - latin */
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url(./fonts/code/encode-sans-condensed-v10-latin-500.woff2) format('woff2'),
+         url(./fonts/code/encode-sans-condensed-v10-latin-500.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* encode-sans-condensed-700 - latin */
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url(./fonts/code/encode-sans-condensed-v10-latin-700.woff2) format('woff2'),
+         url(./fonts/code/encode-sans-condensed-v10-latin-700.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* averia-libre-regular - latin */
+@font-face {
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/averia-libre-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/averia-libre-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* averia-libre-700 - latin */
+@font-face {
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/averia-libre-v16-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/averia-libre-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.title {
+    font-family: 'Encode Sans Condensed';
+    font-size: 500;
+
+}
+.text {
+    font-family: 'Encode Sans Condensed';
+    font-size: 700;
+}
+.title1 {
+    font-family: 'Encode Sans Condensed';
+    font-size: 400;
+
+}
+.text1 {
+    font-family: 'Encode Sans Condensed';
+    font-size: 700;
+}
